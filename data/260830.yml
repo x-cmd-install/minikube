@@ -1,0 +1,74 @@
+about:
+  description: Run Kubernetes locally
+  license: Apache-2.0
+  homepage: https://minikube.sigs.k8s.io/
+  head: 2586a11
+  archived: false
+  latestVersion: v1.38.1
+  collectedAt: 2026-08-30T05:13:48Z
+timeline:
+  created: 2016-04-15
+  lastCommit: 2026-08-29
+  lastRelease: 2026-02-19
+popularity:
+  star: 32076
+  watcher: 471
+  fork: 5304
+  release: 154
+  contributor: 1498
+  pullRequest: 3205
+  issue: 10611
+language:
+  Go: 4237533
+  HTML: 2248724
+  Go Template: 1308814
+  Shell: 271737
+  Makefile: 87686
+  JavaScript: 37046
+  Dockerfile: 22479
+  PowerShell: 17554
+  NSIS: 8215
+  SCSS: 5886
+  Bicep: 4798
+  BitBake: 4400
+  CSS: 1993
+  Lua: 1597
+  C++: 1461
+  PHP: 682
+  NASL: 651
+  Python: 631
+  C: 156
+totalLine: 8262043
+recent:
+  last30d:
+    since: 2026-07-31
+    release: 0
+    mergedPR: 60
+    openPR: 31
+    closedIssue: 7
+    openIssue: 20
+    commit: 166
+  last90d:
+    since: 2026-06-01
+    release: 0
+    mergedPR: 158
+    openPR: 49
+    closedIssue: 32
+    openIssue: 53
+    commit: 503
+  last180d:
+    since: 2026-03-03
+    release: 0
+    mergedPR: 305
+    openPR: 79
+    closedIssue: 62
+    openIssue: 92
+    commit: 702
+  last360d:
+    since: 2025-09-04
+    release: 3
+    mergedPR: 863
+    openPR: 95
+    closedIssue: 317
+    openIssue: 146
+    commit: 1636
