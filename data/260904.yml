@@ -7,7 +7,7 @@ about:
   head: 4d8e24b
   archived: false
   latestVersion: v1.39.0
-  collectedAt: 2026-09-04T19:23:57Z
+  collectedAt: 2026-09-04T21:15:44Z
 timeline:
   created: 2016-04-15
   lastCommit: 2026-09-03
@@ -19,7 +19,7 @@ popularity:
   release: 155
   contributor: 1500
   pullRequest: 12942
-  issue: 10619
+  issue: 10621
 language:
   Go: 4237884
   HTML: 2267421
@@ -48,7 +48,7 @@ recent:
     mergedPR: 66
     openPR: 35
     closedIssue: 10
-    openIssue: 19
+    openIssue: 21
     commit: 202
   last60d:
     since: 2026-07-06
@@ -56,7 +56,7 @@ recent:
     mergedPR: 114
     openPR: 50
     closedIssue: 22
-    openIssue: 28
+    openIssue: 30
     commit: 318
   last90d:
     since: 2026-06-06
@@ -64,7 +64,7 @@ recent:
     mergedPR: 166
     openPR: 60
     closedIssue: 38
-    openIssue: 51
+    openIssue: 53
     commit: 539
   last180d:
     since: 2026-03-08
@@ -72,7 +72,7 @@ recent:
     mergedPR: 321
     openPR: 88
     closedIssue: 68
-    openIssue: 91
+    openIssue: 93
     commit: 738
   last360d:
     since: 2025-09-09
@@ -80,7 +80,7 @@ recent:
     mergedPR: 855
     openPR: 106
     closedIssue: 320
-    openIssue: 145
+    openIssue: 147
     commit: 1672
   last720d:
     since: 2024-09-14
@@ -88,16 +88,134 @@ recent:
     mergedPR: 1654
     openPR: 109
     closedIssue: 823
-    openIssue: 181
+    openIssue: 183
     commit: 3118
 total:
   release: 155
   mergedPR: 9723
   openPR: 111
   closedIssue: 10170
-  openIssue: 449
+  openIssue: 451
   commit: 28166
 ---
+path: /home/runner/.x-repo/github.com/kubernetes/minikube
+collectedAt: 2026-09-04T21:15:56Z
+loc:
+  Yaml:
+    code: 162813
+    comments: 2724
+    blanks: 345
+    files: 332
+  Go:
+    code: 109168
+    comments: 21193
+    blanks: 17674
+    files: 832
+  Json:
+    code: 18302
+    comments: 0
+    blanks: 0
+    files: 33
+  Html:
+    code: 12314
+    comments: 19
+    blanks: 2898
+    files: 162
+  Sh:
+    code: 3441
+    comments: 2177
+    blanks: 1150
+    files: 107
+  Makefile:
+    code: 1685
+    comments: 230
+    blanks: 451
+    files: 31
+  JavaScript:
+    code: 939
+    comments: 40
+    blanks: 69
+    files: 4
+  Bash:
+    code: 650
+    comments: 212
+    blanks: 133
+    files: 8
+  Bitbake:
+    code: 390
+    comments: 300
+    blanks: 180
+    files: 44
+  Toml:
+    code: 326
+    comments: 48
+    blanks: 60
+    files: 10
+  Dockerfile:
+    code: 318
+    comments: 165
+    blanks: 44
+    files: 19
+  PowerShell:
+    code: 249
+    comments: 144
+    blanks: 56
+    files: 11
+  Sass:
+    code: 208
+    comments: 24
+    blanks: 44
+    files: 2
+  Autoconf:
+    code: 194
+    comments: 7
+    blanks: 10
+    files: 30
+  Svg:
+    code: 136
+    comments: 5
+    blanks: 0
+    files: 5
+  Css:
+    code: 81
+    comments: 5
+    blanks: 15
+    files: 2
+  ForgeConfig:
+    code: 41
+    comments: 10
+    blanks: 6
+    files: 7
+  Lua:
+    code: 38
+    comments: 7
+    blanks: 12
+    files: 1
+  RPMSpecfile:
+    code: 26
+    comments: 1
+    blanks: 5
+    files: 1
+  CHeader:
+    code: 6
+    comments: 0
+    blanks: 3
+    files: 1
+  Markdown:
+    code: 0
+    comments: 17016
+    blanks: 5741
+    files: 221
+  Text:
+    code: 0
+    comments: 1399
+    blanks: 9
+    files: 9
+total:
+  code: 354598
+  comments: 45758
+  blanks: 36887
+  files: 1872
 ---
 date: "2026-08-24"
 repo:
