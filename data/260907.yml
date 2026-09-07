@@ -2,30 +2,30 @@ about:
   description: "Run Kubernetes locally"
   license: Apache-2.0
   homepage: https://minikube.sigs.k8s.io/
-  head: dcc8bfb
+  head: 2f9f8de
   archived: false
   latestVersion: "v1.39.0"
-  collectedAt: 2026-09-07T04:26:07Z
+  collectedAt: 2026-09-07T20:05:51Z
 timeline:
   created: 2016-04-15
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-09-02
 popularity:
-  star: 32104
+  star: 32105
   watcher: 475
-  fork: 5316
+  fork: 5317
   release: 155
-  contributor: 1503
-  pullRequest: 12966
-  issue: 10626
+  contributor: 1504
+  pullRequest: 12973
+  issue: 10630
 language:
-  Go: 4237859
+  Go: 4237882
   HTML: 2267421
   Go Template: 1308814
   Shell: 271934
   Makefile: 87669
   JavaScript: 37046
-  Dockerfile: 22479
+  Dockerfile: 22896
   PowerShell: 17554
   NSIS: 8215
   SCSS: 5886
@@ -38,66 +38,66 @@ language:
   NASL: 651
   Python: 631
   C: 156
-totalBytes: 8281246
+totalBytes: 8281686
 recent:
   last30d:
     since: 2026-08-08
     release: 1
-    mergedPR: 75
-    openPR: 34
-    closedIssue: 12
-    openIssue: 23
-    commit: 211
+    mergedPR: 77
+    openPR: 39
+    closedIssue: 13
+    openIssue: 26
+    commit: 216
   last60d:
     since: 2026-07-09
     release: 1
-    mergedPR: 125
-    openPR: 51
-    closedIssue: 24
-    openIssue: 31
-    commit: 296
+    mergedPR: 127
+    openPR: 56
+    closedIssue: 25
+    openIssue: 34
+    commit: 301
   last90d:
     since: 2026-06-09
     release: 1
-    mergedPR: 178
-    openPR: 61
-    closedIssue: 42
-    openIssue: 53
-    commit: 540
+    mergedPR: 180
+    openPR: 66
+    closedIssue: 43
+    openIssue: 56
+    commit: 545
   last180d:
     since: 2026-03-11
     release: 1
-    mergedPR: 334
-    openPR: 90
-    closedIssue: 70
-    openIssue: 93
-    commit: 769
+    mergedPR: 336
+    openPR: 95
+    closedIssue: 71
+    openIssue: 96
+    commit: 774
   last360d:
     since: 2025-09-12
     release: 3
-    mergedPR: 868
-    openPR: 108
-    closedIssue: 322
-    openIssue: 146
-    commit: 1677
+    mergedPR: 870
+    openPR: 113
+    closedIssue: 323
+    openIssue: 149
+    commit: 1682
   last720d:
     since: 2024-09-17
     release: 6
-    mergedPR: 1657
-    openPR: 111
-    closedIssue: 821
-    openIssue: 183
-    commit: 3119
+    mergedPR: 1659
+    openPR: 116
+    closedIssue: 822
+    openIssue: 186
+    commit: 3124
 total:
   release: 155
-  mergedPR: 9736
-  openPR: 113
-  closedIssue: 10175
-  openIssue: 451
-  commit: 28197
+  mergedPR: 9738
+  openPR: 118
+  closedIssue: 10176
+  openIssue: 454
+  commit: 28202
 ---
 path: /home/runner/.x-repo/github.com/kubernetes/minikube
-collectedAt: 2026-09-07T04:26:33Z
+collectedAt: 2026-09-07T20:06:17Z
 loc:
   Yaml:
     code: 162813
@@ -150,9 +150,9 @@ loc:
     blanks: 61
     files: 10
   Dockerfile:
-    code: 318
-    comments: 165
-    blanks: 44
+    code: 325
+    comments: 166
+    blanks: 45
     files: 19
   PowerShell:
     code: 249
@@ -210,9 +210,9 @@ loc:
     blanks: 9
     files: 9
 total:
-  code: 354618
-  comments: 45761
-  blanks: 36888
+  code: 354625
+  comments: 45762
+  blanks: 36889
   files: 1872
 ---
 date: "2026-08-24"
@@ -400,7 +400,7 @@ checks:
       - 'Info:   0 out of   7 containerImage dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T04:26:37+00:00
+  collectedAt: 2026-09-07T20:06:22+00:00
   platform:
     darwin/arm64:
       name:  minikube-darwin-arm64.tar.gz
