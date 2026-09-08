@@ -1,6 +1,24 @@
----
-owner-repo: kubernetes/minikube
-desc:   Run Kubernetes locally 
----
-
 # minikube
+
+Run Kubernetes locally
+
+- **Upstream**: <https://github.com/kubernetes/minikube>
+- **Homepage**: <https://minikube.sigs.k8s.io/>
+- **Latest release**: `v1.39.0` (2026-09-02)
+- **Last commit**: 2026-09-08
+- **License**: Apache-2.0
+- **Stars**: 32108 · **Forks**: 5318 · **Open issues**: 10630 · **Contributors**: 1505
+
+## Installation
+
+```sh
+x install minikube
+```
+
+See <https://x-cmd.com/install/minikube> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T10:29:42Z._
