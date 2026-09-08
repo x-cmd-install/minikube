@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1344583168,
       "digest": "sha256:47ea2fbfc3ea278901e40d948a49041498f7f8daa9874126cd589ff583b6d8e5",
-      "download_count": 393,
+      "download_count": 420,
       "created_at": "2026-09-02T21:13:29Z",
       "updated_at": "2026-09-02T21:14:04Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-amd64.tar"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 338390,
       "digest": "sha256:a9b6849aba2c8e6fb86cce728fc88745bb0fbeda23e21c2512e2ad5a810ddeaf",
-      "download_count": 1378,
+      "download_count": 1431,
       "created_at": "2026-09-02T21:16:35Z",
       "updated_at": "2026-09-02T21:16:35Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/licenses.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 149788640,
       "digest": "sha256:12247c653b6f1b58ac7bb634f6d1e31a1d33f7c63a6f99cbdaef160de15d2175",
-      "download_count": 309,
+      "download_count": 319,
       "created_at": "2026-09-02T21:11:11Z",
       "updated_at": "2026-09-02T21:11:14Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-amd64"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:b7dd028b585d344895ebb92ca93d684f4ec36bd0effdec6def36ed6cfa8e118d",
-      "download_count": 64,
+      "download_count": 65,
       "created_at": "2026-09-02T21:17:52Z",
       "updated_at": "2026-09-02T21:17:52Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-amd64.sha256"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 143223298,
       "digest": "sha256:78ad8f2f3b35a81e9c2501b1a65961c1521aa4c76fbbe1b5409053db49e29bcd",
-      "download_count": 683,
+      "download_count": 699,
       "created_at": "2026-09-02T21:16:22Z",
       "updated_at": "2026-09-02T21:16:26Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-arm64"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:4eaa4a59978c709c28fd715f68122ed2b2a6f806e8a47d0abf83dfe09f192be0",
-      "download_count": 72,
+      "download_count": 74,
       "created_at": "2026-09-02T21:11:25Z",
       "updated_at": "2026-09-02T21:11:25Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-arm64.sha256"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 54308621,
       "digest": "sha256:13334fb9aaf70a2b88a9dcd51bd888b265f2817dbc9e1fdf7f5410c797178674",
-      "download_count": 2585,
+      "download_count": 2606,
       "created_at": "2026-09-02T21:10:30Z",
       "updated_at": "2026-09-02T21:10:32Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-installer.exe"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 142610232,
       "digest": "sha256:b738496da01be06bbaf80c688f57ce25acd3849fbb518155f3a88e03ef555aa4",
-      "download_count": 28349,
+      "download_count": 28918,
       "created_at": "2026-09-02T21:16:40Z",
       "updated_at": "2026-09-02T21:16:44Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:b9f67f543d5a20a00485058fb4dbf3824ab7df3acf9fabd458fee62582e059d4",
-      "download_count": 904,
+      "download_count": 914,
       "created_at": "2026-09-02T21:14:30Z",
       "updated_at": "2026-09-02T21:14:31Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64.sha256"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 51938372,
       "digest": "sha256:e4216586c07c05441910cce39600f0424132c3ae69400ce1a7daaae17dc2e855",
-      "download_count": 82,
+      "download_count": 83,
       "created_at": "2026-09-02T21:11:19Z",
       "updated_at": "2026-09-02T21:11:20Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64.tar.gz"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 135838135,
       "digest": "sha256:202f331cb677761c5aec81c58472d16d65707358b9f66226210be3fe3275b1c3",
-      "download_count": 8202,
+      "download_count": 8267,
       "created_at": "2026-09-02T21:14:09Z",
       "updated_at": "2026-09-02T21:14:14Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-arm64"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 141517461,
       "digest": "sha256:4ec38cf4b985e1733b3847972228d9114c61e2ec07e3c779f433a06fd614e2aa",
-      "download_count": 181,
+      "download_count": 186,
       "created_at": "2026-09-02T21:15:45Z",
       "updated_at": "2026-09-02T21:15:49Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-ppc64le"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 145434218,
       "digest": "sha256:4a0f4a6d74391ea783f8c5f970347133455b2554baca1e84299855eec376b0d4",
-      "download_count": 189,
+      "download_count": 197,
       "created_at": "2026-09-02T21:10:51Z",
       "updated_at": "2026-09-02T21:10:56Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-s390x"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 414697472,
       "digest": "sha256:e034d26e27e03e37aab43cd3560c40f955a3476cc994e8964585523a1ba86b6a",
-      "download_count": 84,
+      "download_count": 85,
       "created_at": "2026-09-02T21:16:48Z",
       "updated_at": "2026-09-02T21:17:01Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-amd64.iso"
@@ -1327,7 +1327,7 @@
       "state": "uploaded",
       "size": 65,
       "digest": "sha256:a7ab68b9db46ebeefacda719b42ac314fe547969a5eb16392400aec24ae56929",
-      "download_count": 69,
+      "download_count": 70,
       "created_at": "2026-09-02T21:15:40Z",
       "updated_at": "2026-09-02T21:15:40Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-amd64.iso.sha256"
@@ -1435,7 +1435,7 @@
       "state": "uploaded",
       "size": 144181248,
       "digest": "sha256:776386465ded2cf610ae397fe302de32c44d12134b5ce7ce98ab05bd7713b360",
-      "download_count": 1124,
+      "download_count": 1140,
       "created_at": "2026-09-02T21:10:41Z",
       "updated_at": "2026-09-02T21:10:46Z",
       "browser_download_url": "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-windows-amd64.exe"

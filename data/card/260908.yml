@@ -5,7 +5,7 @@ about:
   head: 2f9f8de
   archived: false
   latestVersion: "v1.39.0"
-  collectedAt: 2026-09-08T01:32:08Z
+  collectedAt: 2026-09-08T04:25:29Z
 timeline:
   created: 2016-04-15
   lastCommit: 2026-09-07
@@ -97,7 +97,7 @@ total:
   commit: 28202
 ---
 path: /home/runner/.x-repo/github.com/kubernetes/minikube
-collectedAt: 2026-09-08T01:32:38Z
+collectedAt: 2026-09-08T04:26:12Z
 loc:
   Yaml:
     code: 162813
