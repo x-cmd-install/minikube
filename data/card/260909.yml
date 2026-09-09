@@ -2,15 +2,15 @@ about:
   description: "Run Kubernetes locally"
   license: Apache-2.0
   homepage: https://minikube.sigs.k8s.io/
-  head: effc271
+  head: 67d5853
   archived: false
   latestVersion: "v1.39.0"
   latestRelease: "v1.39.0"
   latestPrerelease: "v1.33.0-beta.0"
-  collectedAt: 2026-09-09T04:39:45Z
+  collectedAt: 2026-09-09T18:30:05Z
 timeline:
   created: 2016-04-15
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2026-09-02
   lastRelease: 2026-09-02
   lastPrerelease: 2024-03-26
@@ -19,11 +19,11 @@ popularity:
   watcher: 475
   fork: 5320
   release: 155
-  contributor: 1505
-  pullRequest: 12983
-  issue: 10630
+  contributor: 1506
+  pullRequest: 12987
+  issue: 10632
 language:
-  Go: 4239133
+  Go: 4239289
   HTML: 2267421
   Go Template: 1308814
   Shell: 271954
@@ -42,66 +42,66 @@ language:
   NASL: 651
   Python: 631
   C: 156
-totalBytes: 8283034
+totalBytes: 8283190
 recent:
   last30d:
     since: 2026-08-10
     release: 1
-    mergedPR: 85
+    mergedPR: 88
     openPR: 32
     closedIssue: 17
-    openIssue: 21
-    commit: 252
+    openIssue: 23
+    commit: 260
   last60d:
     since: 2026-07-11
     release: 1
-    mergedPR: 127
+    mergedPR: 130
     openPR: 50
     closedIssue: 28
-    openIssue: 28
-    commit: 337
+    openIssue: 30
+    commit: 345
   last90d:
     since: 2026-06-11
     release: 1
-    mergedPR: 192
+    mergedPR: 195
     openPR: 61
     closedIssue: 48
-    openIssue: 51
-    commit: 581
+    openIssue: 53
+    commit: 589
   last180d:
     since: 2026-03-13
     release: 1
-    mergedPR: 348
+    mergedPR: 351
     openPR: 90
     closedIssue: 76
-    openIssue: 91
-    commit: 810
+    openIssue: 93
+    commit: 818
   last360d:
     since: 2025-09-14
     release: 3
-    mergedPR: 879
+    mergedPR: 882
     openPR: 108
-    closedIssue: 320
-    openIssue: 143
-    commit: 1719
+    closedIssue: 321
+    openIssue: 144
+    commit: 1727
   last720d:
     since: 2024-09-19
     release: 6
-    mergedPR: 1662
+    mergedPR: 1665
     openPR: 111
-    closedIssue: 824
-    openIssue: 181
-    commit: 3150
+    closedIssue: 825
+    openIssue: 182
+    commit: 3158
 total:
   release: 155
-  mergedPR: 9750
+  mergedPR: 9753
   openPR: 113
-  closedIssue: 10181
-  openIssue: 449
-  commit: 28239
+  closedIssue: 10182
+  openIssue: 450
+  commit: 28247
 ---
 path: /home/runner/.x-repo/github.com/kubernetes/minikube
-collectedAt: 2026-09-09T04:40:10Z
+collectedAt: 2026-09-09T18:30:37Z
 loc:
   Yaml:
     code: 162813
@@ -109,8 +109,8 @@ loc:
     blanks: 345
     files: 332
   Go:
-    code: 109199
-    comments: 21197
+    code: 109200
+    comments: 21196
     blanks: 17680
     files: 832
   Json:
@@ -214,8 +214,8 @@ loc:
     blanks: 9
     files: 9
 total:
-  code: 354656
-  comments: 45758
+  code: 354657
+  comments: 45757
   blanks: 36895
   files: 1872
 ---
