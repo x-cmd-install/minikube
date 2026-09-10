@@ -12,6 +12,28 @@ Run Kubernetes locally
 x install minikube
 ```
 
+## Code insight
+
+Total: **311,384** lines of code across **1466** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Yaml | 162,813 | 2,724 | 345 | 332 |
+| Go | 109,200 | 21,196 | 17,680 | 832 |
+| Json | 18,319 | 0 | 0 | 33 |
+| Html | 12,314 | 19 | 2,898 | 162 |
+| Sh | 3,441 | 2,177 | 1,150 | 107 |
+
+## OpenSSF Scorecard
+
+Overall score: **4.8 / 10**
+
+Lowest-scoring checks:
+
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Packaging** (-1/10) — packaging workflow not detected
+- **CII-Best-Practices** (2/10) — badge detected: InProgress
+
 ## Source
 
 - **Upstream**: <https://github.com/kubernetes/minikube>
@@ -23,6 +45,25 @@ x install minikube
 - **Latest**: `v1.39.0` (2026-09-02)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 50
+
+## Popularity
+
+- **Stars**: 32,116 · **Forks**: 5,322 · **Open issues**: 10,632 · **Contributors**: 1,506
+
+## Totals (cumulative)
+
+- **Releases**: 155 · **Merged PRs**: 9754 · **Open PRs**: 115 · **Closed issues**: 10182 · **Open issues**: 450 · **Commits**: 28250
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 89 | 34 | 16 | 23 | 263 |
+| last60d | 2026-07-12 | 1 | 130 | 52 | 28 | 29 | 348 |
+| 90d | 2026-06-12 | 1 | 194 | 63 | 47 | 53 | 592 |
+| last180d | 2026-03-14 | 1 | 352 | 92 | 76 | 93 | 821 |
+| 360d | 2025-09-15 | 3 | 879 | 110 | 320 | 144 | 1730 |
+| last720d | 2024-09-20 | 6 | 1663 | 113 | 823 | 182 | 3151 |
 
 ## Release assets
 
@@ -79,43 +120,18 @@ x install minikube
 | [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
 | [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 32,114 · **Forks**: 5,322 · **Open issues**: 10,632 · **Contributors**: 1,506
+Reported by **75** distros on [repology.org](https://repology.org/project/minikube). **7** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 155 · **Merged PRs**: 9754 · **Open PRs**: 114 · **Closed issues**: 10182 · **Open issues**: 450 · **Commits**: 28250
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 89 | 33 | 16 | 23 | 263 |
-| 90d | 2026-06-12 | 1 | 194 | 62 | 47 | 53 | 592 |
-| 360d | 2025-09-15 | 3 | 879 | 109 | 320 | 144 | 1730 |
-
-## Code size
-
-Total: **311,384** lines of code across **1466** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Yaml | 162,813 | 2,724 | 345 | 332 |
-| Go | 109,200 | 21,196 | 17,680 | 832 |
-| Json | 18,319 | 0 | 0 | 33 |
-| Html | 12,314 | 19 | 2,898 | 162 |
-| Sh | 3,441 | 2,177 | 1,150 | 107 |
-
-## OpenSSF Scorecard
-
-Overall score: **4.8 / 10**
-
-Lowest-scoring checks:
-
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (2/10) — badge detected: InProgress
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.38.1` | ⚠️ outdated |
+| Homebrew | `1.39.0` | ✅ latest |
+| Nix unstable | `1.38.1` | ⚠️ outdated |
+| Void | `1.27.0` | 🪦 legacy |
+| Alpine edge | `1.34.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.38.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -126,4 +142,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:08:07Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:14:41Z._
