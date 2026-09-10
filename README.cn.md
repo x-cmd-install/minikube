@@ -4,7 +4,7 @@
 
 Run Kubernetes locally
 
-![minikube](https://repo.x-cmd.io/minikube.svg)
+![minikube](https://repo.x-cmd.io/minikube.svg?lang=zh)
 
 ## 安装
 
@@ -23,23 +23,77 @@ x install minikube
 - **最新版本**: `v1.39.0` (2026-09-02)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 50 个
-- **发布时间**: 2026-09-02T21:09:46Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [kicbase-v0.0.51-amd64.tar](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-amd64.tar) | 1.3 GiB | `other` |
+| [kicbase-v0.0.51-amd64.tar.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-amd64.tar.sha256) | 65 B | `other` |
+| [kicbase-v0.0.51-arm64.tar](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-arm64.tar) | 1.2 GiB | `other` |
+| [kicbase-v0.0.51-arm64.tar.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-arm64.tar.sha256) | 65 B | `other` |
+| [kicbase-v0.0.51-ppc64le.tar](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-ppc64le.tar) | 1.1 GiB | `other` |
+| [kicbase-v0.0.51-ppc64le.tar.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-ppc64le.tar.sha256) | 65 B | `other` |
+| [kicbase-v0.0.51-s390x.tar](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-s390x.tar) | 1.2 GiB | `other` |
+| [kicbase-v0.0.51-s390x.tar.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/kicbase-v0.0.51-s390x.tar.sha256) | 65 B | `other` |
+| [licenses.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/licenses.tar.gz) | 330.5 KiB | `native/unknown` |
+| [minikube-1.39.0-0.aarch64.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-1.39.0-0.aarch64.rpm) | 47.0 MiB | `runtime/rpm/aarch64` |
+| [minikube-1.39.0-0.ppc64le.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-1.39.0-0.ppc64le.rpm) | 47.2 MiB | `runtime/rpm/ppc64le` |
+| [minikube-1.39.0-0.s390x.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-1.39.0-0.s390x.rpm) | 50.5 MiB | `runtime/rpm/s390x` |
+| [minikube-1.39.0-0.x86_64.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-1.39.0-0.x86_64.rpm) | 49.3 MiB | `runtime/rpm/x86_64` |
+| [minikube-darwin-amd64](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-amd64) | 142.8 MiB | `native/darwin/x64` |
+| [minikube-darwin-amd64.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-amd64.sha256) | 65 B | `native/darwin/x64` |
+| [minikube-darwin-amd64.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-amd64.tar.gz) | 55.3 MiB | `native/darwin/x64` |
+| [minikube-darwin-arm64](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-arm64) | 136.6 MiB | `native/darwin/arm64` |
+| [minikube-darwin-arm64.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-arm64.sha256) | 65 B | `native/darwin/arm64` |
+| [minikube-darwin-arm64.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-darwin-arm64.tar.gz) | 52.3 MiB | `native/darwin/arm64` |
+| [minikube-installer.exe](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-installer.exe) | 51.8 MiB | `other` |
+| [minikube-latest.aarch64.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-latest.aarch64.rpm) | 47.0 MiB | `runtime/rpm/aarch64` |
+| [minikube-latest.ppc64le.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-latest.ppc64le.rpm) | 47.2 MiB | `runtime/rpm/ppc64le` |
+| [minikube-latest.s390x.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-latest.s390x.rpm) | 50.5 MiB | `runtime/rpm/s390x` |
+| [minikube-latest.x86_64.rpm](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-latest.x86_64.rpm) | 49.3 MiB | `runtime/rpm/x86_64` |
+| [minikube-linux-amd64](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64) | 136.0 MiB | `native/linux/x64` |
+| [minikube-linux-amd64.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64.sha256) | 65 B | `native/linux/x64` |
+| [minikube-linux-amd64.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-amd64.tar.gz) | 49.5 MiB | `native/linux/x64` |
+| [minikube-linux-arm64](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-arm64) | 129.5 MiB | `native/linux/arm64` |
+| [minikube-linux-arm64.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-arm64.sha256) | 65 B | `native/linux/arm64` |
+| [minikube-linux-arm64.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-arm64.tar.gz) | 47.2 MiB | `native/linux/arm64` |
+| [minikube-linux-ppc64le](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-ppc64le) | 135.0 MiB | `other` |
+| [minikube-linux-ppc64le.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-ppc64le.sha256) | 65 B | `other` |
+| [minikube-linux-s390x](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-s390x) | 138.7 MiB | `other` |
+| [minikube-linux-s390x.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-linux-s390x.sha256) | 65 B | `other` |
+| [minikube-v1.39.0-amd64.iso](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-amd64.iso) | 395.5 MiB | `other` |
+| [minikube-v1.39.0-amd64.iso.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-amd64.iso.sha256) | 65 B | `other` |
+| [minikube-v1.39.0-arm64.iso](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-arm64.iso) | 427.9 MiB | `other` |
+| [minikube-v1.39.0-arm64.iso.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-v1.39.0-arm64.iso.sha256) | 65 B | `other` |
+| [minikube-windows-amd64.exe](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-windows-amd64.exe) | 137.5 MiB | `native/win/x64` |
+| [minikube-windows-amd64.exe.sha256](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-windows-amd64.exe.sha256) | 65 B | `native/win/x64` |
+| [minikube-windows-amd64.tar.gz](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-windows-amd64.tar.gz) | 51.5 MiB | `native/win/x64` |
+| [minikube_1.39.0-0_amd64.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_1.39.0-0_amd64.deb) | 39.5 MiB | `runtime/deb/amd64` |
+| [minikube_1.39.0-0_arm64.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_1.39.0-0_arm64.deb) | 37.6 MiB | `runtime/deb/arm64` |
+| [minikube_1.39.0-0_ppc64el.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_1.39.0-0_ppc64el.deb) | 37.6 MiB | `runtime/deb/ppc64el` |
+| [minikube_1.39.0-0_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_1.39.0-0_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
+| [minikube_latest_amd64.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_amd64.deb) | 39.5 MiB | `runtime/deb/amd64` |
+| [minikube_latest_arm64.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_arm64.deb) | 37.6 MiB | `runtime/deb/arm64` |
+| [minikube_latest_ppc64el.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_ppc64el.deb) | 37.6 MiB | `runtime/deb/ppc64el` |
+| [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
+| [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 32,112 · **Fork**: 5,321 · **开放 issue**: 10,632 · **贡献者**: 1,506
+- **Star**: 32,114 · **Fork**: 5,322 · **开放 issue**: 10,632 · **贡献者**: 1,506
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 9754 · **开放 PR**: 113 · **已关闭 issue**: 10182 · **开放 issue**: 450 · **提交数**: 28250
+- **发布数**: 155 · **已合并 PR**: 9754 · **开放 PR**: 114 · **已关闭 issue**: 10182 · **开放 issue**: 450 · **提交数**: 28250
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 89 | 32 | 16 | 23 | 263 |
-| 90d | 2026-06-12 | 1 | 194 | 61 | 47 | 53 | 592 |
-| 360d | 2025-09-15 | 3 | 879 | 108 | 320 | 144 | 1730 |
+| 30d | 2026-08-11 | 1 | 89 | 33 | 16 | 23 | 263 |
+| 90d | 2026-06-12 | 1 | 194 | 62 | 47 | 53 | 592 |
+| 360d | 2025-09-15 | 3 | 879 | 109 | 320 | 144 | 1730 |
 
 ## 代码规模
 
@@ -72,4 +126,4 @@ minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:32:37Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:08:08Z._
