@@ -2,15 +2,15 @@ about:
   description: "Run Kubernetes locally"
   license: Apache-2.0
   homepage: https://minikube.sigs.k8s.io/
-  head: ab501b3
+  head: 0e95f4a
   archived: false
   latestVersion: "v1.39.0"
   latestRelease: "v1.39.0"
   latestPrerelease: "v1.33.0-beta.0"
-  collectedAt: 2026-09-10T20:13:58Z
+  collectedAt: 2026-09-10T23:34:45Z
 timeline:
   created: 2016-04-15
-  lastCommit: 2026-09-09
+  lastCommit: 2026-09-10
   lastVersion: 2026-09-02
   lastRelease: 2026-09-02
   lastPrerelease: 2024-03-26
@@ -47,61 +47,61 @@ recent:
   last30d:
     since: 2026-08-11
     release: 1
-    mergedPR: 89
-    openPR: 34
+    mergedPR: 90
+    openPR: 33
     closedIssue: 16
     openIssue: 23
-    commit: 263
+    commit: 265
   last60d:
     since: 2026-07-12
     release: 1
-    mergedPR: 130
-    openPR: 52
+    mergedPR: 131
+    openPR: 51
     closedIssue: 28
     openIssue: 29
-    commit: 348
+    commit: 350
   last90d:
     since: 2026-06-12
     release: 1
-    mergedPR: 194
-    openPR: 63
+    mergedPR: 195
+    openPR: 62
     closedIssue: 47
     openIssue: 53
-    commit: 592
+    commit: 594
   last180d:
     since: 2026-03-14
     release: 1
-    mergedPR: 352
-    openPR: 92
+    mergedPR: 353
+    openPR: 91
     closedIssue: 76
     openIssue: 93
-    commit: 821
+    commit: 823
   last360d:
     since: 2025-09-15
     release: 3
-    mergedPR: 879
-    openPR: 110
+    mergedPR: 880
+    openPR: 109
     closedIssue: 320
     openIssue: 144
-    commit: 1730
+    commit: 1732
   last720d:
     since: 2024-09-20
     release: 6
-    mergedPR: 1663
-    openPR: 113
+    mergedPR: 1664
+    openPR: 112
     closedIssue: 823
     openIssue: 182
-    commit: 3151
+    commit: 3153
 total:
   release: 155
-  mergedPR: 9754
-  openPR: 115
+  mergedPR: 9755
+  openPR: 114
   closedIssue: 10182
   openIssue: 450
-  commit: 28250
+  commit: 28252
 ---
 path: /home/runner/.x-repo/github.com/kubernetes/minikube
-collectedAt: 2026-09-10T20:14:28Z
+collectedAt: 2026-09-10T23:35:09Z
 loc:
   Yaml:
     code: 162813
