@@ -2,24 +2,24 @@ about:
   description: "Run Kubernetes locally"
   license: Apache-2.0
   homepage: https://minikube.sigs.k8s.io/
-  head: 0e95f4a
+  head: 2eecd71
   archived: false
   latestVersion: "v1.39.0"
   latestRelease: "v1.39.0"
   latestPrerelease: "v1.33.0-beta.0"
-  collectedAt: 2026-09-11T04:28:32Z
+  collectedAt: 2026-09-11T20:34:14Z
 timeline:
   created: 2016-04-15
-  lastCommit: 2026-09-10
+  lastCommit: 2026-09-11
   lastVersion: 2026-09-02
   lastRelease: 2026-09-02
   lastPrerelease: 2024-03-26
 popularity:
-  star: 32117
+  star: 32118
   watcher: 474
-  fork: 5322
+  fork: 5323
   release: 155
-  contributor: 1506
+  contributor: 1508
   pullRequest: 12991
   issue: 10632
 language:
@@ -51,57 +51,57 @@ recent:
     openPR: 34
     closedIssue: 15
     openIssue: 23
-    commit: 265
+    commit: 266
   last60d:
     since: 2026-07-13
     release: 1
-    mergedPR: 123
-    openPR: 52
+    mergedPR: 124
+    openPR: 51
     closedIssue: 26
     openIssue: 29
-    commit: 350
+    commit: 352
   last90d:
     since: 2026-06-13
     release: 1
-    mergedPR: 191
-    openPR: 63
+    mergedPR: 192
+    openPR: 62
     closedIssue: 45
     openIssue: 44
-    commit: 594
+    commit: 596
   last180d:
     since: 2026-03-15
     release: 1
-    mergedPR: 353
-    openPR: 92
+    mergedPR: 354
+    openPR: 91
     closedIssue: 76
     openIssue: 93
-    commit: 823
+    commit: 825
   last360d:
     since: 2025-09-16
     release: 3
-    mergedPR: 879
-    openPR: 110
+    mergedPR: 880
+    openPR: 109
     closedIssue: 316
     openIssue: 144
-    commit: 1732
+    commit: 1734
   last720d:
     since: 2024-09-21
     release: 6
-    mergedPR: 1664
-    openPR: 113
+    mergedPR: 1665
+    openPR: 112
     closedIssue: 821
     openIssue: 182
-    commit: 3145
+    commit: 3147
 total:
   release: 155
-  mergedPR: 9755
-  openPR: 115
+  mergedPR: 9756
+  openPR: 114
   closedIssue: 10182
   openIssue: 450
-  commit: 28252
+  commit: 28254
 ---
 path: /home/runner/.x-repo/github.com/kubernetes/minikube
-collectedAt: 2026-09-11T04:28:58Z
+collectedAt: 2026-09-11T20:34:54Z
 loc:
   Yaml:
     code: 162813
