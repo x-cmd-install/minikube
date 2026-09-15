@@ -30,9 +30,9 @@ Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (2/10) — badge detected: InProgress
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,128 · **Forks**: 5,323 · **Open issues**: 10,633 · **Contributors**: 1,508
+- **Stars**: 32,130 · **Forks**: 5,324 · **Open issues**: 10,634 · **Contributors**: 1,508
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9758 · **Open PRs**: 118 · **Closed issues**: 10182 · **Open issues**: 451 · **Commits**: 28260
+- **Releases**: 155 · **Merged PRs**: 9758 · **Open PRs**: 124 · **Closed issues**: 10182 · **Open issues**: 452 · **Commits**: 28260
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 82 | 36 | 15 | 23 | 229 |
-| last60d | 2026-07-16 | 1 | 123 | 52 | 25 | 29 | 315 |
-| 90d | 2026-06-16 | 1 | 191 | 65 | 43 | 41 | 521 |
-| last180d | 2026-03-18 | 1 | 355 | 95 | 76 | 93 | 829 |
-| 360d | 2025-09-19 | 3 | 878 | 113 | 310 | 144 | 1698 |
-| last720d | 2024-09-24 | 6 | 1659 | 116 | 812 | 182 | 3137 |
+| 30d | 2026-08-16 | 1 | 80 | 37 | 14 | 24 | 229 |
+| last60d | 2026-07-17 | 1 | 123 | 58 | 25 | 30 | 315 |
+| 90d | 2026-06-17 | 1 | 190 | 71 | 42 | 42 | 521 |
+| last180d | 2026-03-19 | 1 | 353 | 101 | 76 | 94 | 829 |
+| 360d | 2025-09-20 | 3 | 877 | 119 | 308 | 143 | 1698 |
+| last720d | 2024-09-25 | 6 | 1659 | 122 | 808 | 183 | 3134 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:52:09Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T04:56:36Z._

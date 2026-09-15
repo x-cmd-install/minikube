@@ -30,9 +30,9 @@ x install minikube
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (2/10) — badge detected: InProgress
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install minikube
 
 ## 流行度
 
-- **Star**: 32,128 · **Fork**: 5,323 · **开放 issue**: 10,633 · **贡献者**: 1,508
+- **Star**: 32,130 · **Fork**: 5,324 · **开放 issue**: 10,634 · **贡献者**: 1,508
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 9758 · **开放 PR**: 118 · **已关闭 issue**: 10182 · **开放 issue**: 451 · **提交数**: 28260
+- **发布数**: 155 · **已合并 PR**: 9758 · **开放 PR**: 124 · **已关闭 issue**: 10182 · **开放 issue**: 452 · **提交数**: 28260
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 82 | 36 | 15 | 23 | 229 |
-| last60d | 2026-07-16 | 1 | 123 | 52 | 25 | 29 | 315 |
-| 90d | 2026-06-16 | 1 | 191 | 65 | 43 | 41 | 521 |
-| last180d | 2026-03-18 | 1 | 355 | 95 | 76 | 93 | 829 |
-| 360d | 2025-09-19 | 3 | 878 | 113 | 310 | 144 | 1698 |
-| last720d | 2024-09-24 | 6 | 1659 | 116 | 812 | 182 | 3137 |
+| 30d | 2026-08-16 | 1 | 80 | 37 | 14 | 24 | 229 |
+| last60d | 2026-07-17 | 1 | 123 | 58 | 25 | 30 | 315 |
+| 90d | 2026-06-17 | 1 | 190 | 71 | 42 | 42 | 521 |
+| last180d | 2026-03-19 | 1 | 353 | 101 | 76 | 94 | 829 |
+| 360d | 2025-09-20 | 3 | 877 | 119 | 308 | 143 | 1698 |
+| last720d | 2024-09-25 | 6 | 1659 | 122 | 808 | 183 | 3134 |
 
 ## Release 资产
 
@@ -129,4 +129,4 @@ minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260914.yml` · 2026-09-14T04:52:10Z._
+_数据快照: `data/card/260915.yml` · 2026-09-15T04:56:36Z._
