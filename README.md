@@ -4,7 +4,7 @@
 
 Run Kubernetes locally
 
-[![x-cmd/install — minikube Code Quality Monitoring Repo Card](https://repo.x-cmd.io/minikube.svg)](https://x-cmd.com/install/minikube)
+[![x-cmd/install — minikube Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/minikube.svg)](https://x-cmd.com/install/minikube)
 
 ## Install
 
@@ -30,8 +30,8 @@ Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-22
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,149 · **Forks**: 5,331 · **Open issues**: 10,661 · **Contributors**: 1,514
+- **Stars**: 32,150 · **Forks**: 5,329 · **Open issues**: 10,663 · **Contributors**: 1,514
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9787 · **Open PRs**: 135 · **Closed issues**: 10192 · **Open issues**: 469 · **Commits**: 28328
+- **Releases**: 155 · **Merged PRs**: 9791 · **Open PRs**: 132 · **Closed issues**: 10193 · **Open issues**: 470 · **Commits**: 28339
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 91 | 48 | 22 | 37 | 204 |
-| last60d | 2026-07-24 | 1 | 146 | 66 | 33 | 46 | 379 |
-| 90d | 2026-06-24 | 1 | 209 | 80 | 50 | 55 | 546 |
-| last180d | 2026-03-26 | 1 | 378 | 107 | 86 | 110 | 896 |
-| 360d | 2025-09-27 | 3 | 897 | 130 | 306 | 157 | 1701 |
-| last720d | 2024-10-02 | 6 | 1663 | 133 | 808 | 200 | 3165 |
+| 30d | 2026-08-24 | 1 | 90 | 43 | 22 | 37 | 215 |
+| last60d | 2026-07-25 | 1 | 146 | 63 | 34 | 47 | 390 |
+| 90d | 2026-06-25 | 1 | 211 | 77 | 50 | 56 | 557 |
+| last180d | 2026-03-27 | 1 | 382 | 104 | 87 | 110 | 907 |
+| 360d | 2025-09-28 | 3 | 899 | 127 | 307 | 158 | 1712 |
+| last720d | 2024-10-03 | 6 | 1666 | 130 | 807 | 201 | 3170 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:45:37Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:41:47Z._
