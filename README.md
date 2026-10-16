@@ -14,12 +14,12 @@ x install minikube
 
 ## Code insight
 
-Total: **303,578** lines of code across **1359** files in the top 5 languages.
+Total: **303,586** lines of code across **1359** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Yaml | 154,911 | 2,400 | 345 | 224 |
-| Go | 109,268 | 21,187 | 17,673 | 833 |
+| Go | 109,266 | 21,187 | 17,677 | 833 |
 | Json | 18,319 | 0 | 0 | 33 |
 | Html | 12,314 | 19 | 2,898 | 162 |
 | Sh | 3,426 | 2,177 | 1,147 | 107 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-15
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,193 · **Forks**: 5,345 · **Open issues**: 10,678 · **Contributors**: 1,530
+- **Stars**: 32,192 · **Forks**: 5,349 · **Open issues**: 10,679 · **Contributors**: 1,532
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9824 · **Open PRs**: 151 · **Closed issues**: 10200 · **Open issues**: 478 · **Commits**: 28424
+- **Releases**: 155 · **Merged PRs**: 9826 · **Open PRs**: 150 · **Closed issues**: 10202 · **Open issues**: 477 · **Commits**: 28430
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 56 | 40 | 15 | 27 | 150 |
-| last60d | 2026-08-16 | 1 | 146 | 65 | 33 | 49 | 400 |
-| 90d | 2026-07-17 | 1 | 189 | 85 | 44 | 55 | 480 |
-| last180d | 2026-04-18 | 1 | 386 | 120 | 91 | 108 | 980 |
-| 360d | 2025-10-20 | 3 | 890 | 145 | 284 | 162 | 1735 |
-| last720d | 2024-10-25 | 6 | 1626 | 149 | 790 | 208 | 3126 |
+| 30d | 2026-09-16 | 0 | 56 | 38 | 17 | 27 | 156 |
+| last60d | 2026-08-17 | 1 | 145 | 64 | 35 | 49 | 406 |
+| 90d | 2026-07-18 | 1 | 186 | 83 | 45 | 55 | 486 |
+| last180d | 2026-04-19 | 1 | 387 | 119 | 93 | 107 | 986 |
+| 360d | 2025-10-21 | 3 | 892 | 144 | 284 | 161 | 1741 |
+| last720d | 2024-10-26 | 6 | 1628 | 148 | 790 | 207 | 3123 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:29:05Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:23:49Z._
