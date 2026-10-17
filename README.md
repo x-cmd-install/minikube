@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-10-15
+- **Last commit**: 2026-10-16
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,192 · **Forks**: 5,349 · **Open issues**: 10,679 · **Contributors**: 1,532
+- **Stars**: 32,190 · **Forks**: 5,351 · **Open issues**: 10,679 · **Contributors**: 1,532
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9826 · **Open PRs**: 150 · **Closed issues**: 10202 · **Open issues**: 477 · **Commits**: 28430
+- **Releases**: 155 · **Merged PRs**: 9827 · **Open PRs**: 154 · **Closed issues**: 10202 · **Open issues**: 477 · **Commits**: 28434
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 0 | 56 | 38 | 17 | 27 | 156 |
-| last60d | 2026-08-17 | 1 | 145 | 64 | 35 | 49 | 406 |
-| 90d | 2026-07-18 | 1 | 186 | 83 | 45 | 55 | 486 |
-| last180d | 2026-04-19 | 1 | 387 | 119 | 93 | 107 | 986 |
-| 360d | 2025-10-21 | 3 | 892 | 144 | 284 | 161 | 1741 |
-| last720d | 2024-10-26 | 6 | 1628 | 148 | 790 | 207 | 3123 |
+| 30d | 2026-09-17 | 0 | 55 | 39 | 17 | 27 | 160 |
+| last60d | 2026-08-18 | 1 | 146 | 68 | 35 | 50 | 410 |
+| 90d | 2026-07-19 | 1 | 186 | 87 | 45 | 55 | 490 |
+| last180d | 2026-04-20 | 1 | 386 | 123 | 92 | 108 | 990 |
+| 360d | 2025-10-22 | 3 | 891 | 148 | 284 | 161 | 1745 |
+| last720d | 2024-10-27 | 6 | 1629 | 152 | 789 | 207 | 3127 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T04:23:49Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T04:13:34Z._
