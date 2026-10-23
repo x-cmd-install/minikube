@@ -43,27 +43,27 @@ x install minikube
 ## 发布
 
 - **最新版本**: `v1.39.0` (2026-09-02)
-- **最近提交**: 2026-10-22
+- **最近提交**: 2026-10-23
 - **Release 含资产**: 50 个
 
 ## 流行度
 
-- **Star**: 32,203 · **Fork**: 5,360 · **开放 issue**: 10,681 · **贡献者**: 1,537
+- **Star**: 32,204 · **Fork**: 5,362 · **开放 issue**: 10,684 · **贡献者**: 1,538
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 9860 · **开放 PR**: 146 · **已关闭 issue**: 10220 · **开放 issue**: 461 · **提交数**: 28512
+- **发布数**: 155 · **已合并 PR**: 9865 · **开放 PR**: 144 · **已关闭 issue**: 10222 · **开放 issue**: 462 · **提交数**: 28524
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 62 | 25 | 7 | 12 | 149 |
-| last60d | 2026-08-23 | 1 | 161 | 64 | 38 | 43 | 401 |
-| 90d | 2026-07-24 | 1 | 216 | 82 | 49 | 52 | 559 |
-| last180d | 2026-04-25 | 1 | 403 | 115 | 97 | 101 | 1055 |
-| 360d | 2025-10-27 | 3 | 911 | 140 | 289 | 147 | 1795 |
-| last720d | 2024-11-01 | 6 | 1644 | 145 | 802 | 190 | 3180 |
+| 30d | 2026-09-23 | 0 | 65 | 22 | 9 | 13 | 161 |
+| last60d | 2026-08-24 | 1 | 161 | 60 | 39 | 43 | 413 |
+| 90d | 2026-07-25 | 1 | 217 | 80 | 51 | 53 | 571 |
+| last180d | 2026-04-26 | 1 | 408 | 112 | 99 | 102 | 1067 |
+| 360d | 2025-10-28 | 3 | 916 | 138 | 290 | 148 | 1807 |
+| last720d | 2024-11-02 | 6 | 1648 | 143 | 802 | 191 | 3181 |
 
 ## Release 资产
 
@@ -120,6 +120,19 @@ x install minikube
 | [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
 | [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/minikube) 上共有 **72** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**31** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `1.38.1` | ⚠️ outdated |
+| Homebrew | `1.39.0` | ✅ latest |
+| Nix unstable | `1.38.1` | ⚠️ outdated |
+| Void | `1.38.1` | ⚠️ outdated |
+| Alpine edge | `1.34.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.39.0` | ✅ latest |
+
 ## 改进这些数据
 
 minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `minikube` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -129,4 +142,4 @@ minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:32:04Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:36:51Z._

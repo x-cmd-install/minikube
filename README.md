@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-23
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,203 · **Forks**: 5,360 · **Open issues**: 10,681 · **Contributors**: 1,537
+- **Stars**: 32,204 · **Forks**: 5,362 · **Open issues**: 10,684 · **Contributors**: 1,538
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9860 · **Open PRs**: 146 · **Closed issues**: 10220 · **Open issues**: 461 · **Commits**: 28512
+- **Releases**: 155 · **Merged PRs**: 9865 · **Open PRs**: 144 · **Closed issues**: 10222 · **Open issues**: 462 · **Commits**: 28524
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 62 | 25 | 7 | 12 | 149 |
-| last60d | 2026-08-23 | 1 | 161 | 64 | 38 | 43 | 401 |
-| 90d | 2026-07-24 | 1 | 216 | 82 | 49 | 52 | 559 |
-| last180d | 2026-04-25 | 1 | 403 | 115 | 97 | 101 | 1055 |
-| 360d | 2025-10-27 | 3 | 911 | 140 | 289 | 147 | 1795 |
-| last720d | 2024-11-01 | 6 | 1644 | 145 | 802 | 190 | 3180 |
+| 30d | 2026-09-23 | 0 | 65 | 22 | 9 | 13 | 161 |
+| last60d | 2026-08-24 | 1 | 161 | 60 | 39 | 43 | 413 |
+| 90d | 2026-07-25 | 1 | 217 | 80 | 51 | 53 | 571 |
+| last180d | 2026-04-26 | 1 | 408 | 112 | 99 | 102 | 1067 |
+| 360d | 2025-10-28 | 3 | 916 | 138 | 290 | 148 | 1807 |
+| last720d | 2024-11-02 | 6 | 1648 | 143 | 802 | 191 | 3181 |
 
 ## Release assets
 
@@ -120,6 +120,19 @@ Lowest-scoring checks:
 | [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
 | [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
+## Distribution status
+
+Reported by **72** distros on [repology.org](https://repology.org/project/minikube). **10** are ✅ on the latest upstream release, **31** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.38.1` | ⚠️ outdated |
+| Homebrew | `1.39.0` | ✅ latest |
+| Nix unstable | `1.38.1` | ⚠️ outdated |
+| Void | `1.38.1` | ⚠️ outdated |
+| Alpine edge | `1.34.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.39.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `minikube` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -129,4 +142,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:32:03Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:36:50Z._
