@@ -1,3 +1,12 @@
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.33.0
+  origversion: 1.33.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: alpine_edge
   subrepo: testing
   srcname: minikube
@@ -211,19 +220,6 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
-- repo: t2
-  srcname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  summary: Tool to run Kubernetes locally
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - APL
-  categories:
-    - extra/development
 - repo: liguros_stable
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -368,6 +364,15 @@
     - dr.elhombrechile@gmail.com
   licenses:
     - Apache-2.0
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.32.0
+  origversion: 1.32.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: nix_stable_26_05
   srcname: minikube
   visiblename: minikube
@@ -408,6 +413,18 @@
   categories:
     - System/Management
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: minikube
+  visiblename: minikube
+  version: 1.31.0
+  origversion: 1.31.0-bp156.1.15
+  status: legacy
+  summary: Tool to run Kubernetes locally
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+- repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: minikube
   visiblename: minikube
@@ -426,18 +443,6 @@
   version: 1.36.0
   origversion: 1.36.0-bp156.2.6.1
   status: outdated
-  summary: Tool to run Kubernetes locally
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: minikube
-  visiblename: minikube
-  version: 1.31.0
-  origversion: 1.31.0-bp156.1.15
-  status: legacy
   summary: Tool to run Kubernetes locally
   licenses:
     - Apache-2.0
@@ -556,6 +561,19 @@
     - Apache-2.0
   categories:
     - debug
+- repo: t2
+  srcname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  summary: Tool to run Kubernetes locally
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - APL
+  categories:
+    - extra/development
 - repo: termux
   srcname: minikube
   binname: minikube
@@ -648,24 +666,6 @@
   visiblename: minikube
   version: 1.33.1
   origversion: 1.33.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.33.0
-  origversion: 1.33.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.32.0
-  origversion: 1.32.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
