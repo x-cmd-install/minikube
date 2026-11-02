@@ -1,19 +1,114 @@
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: minikube
+  binname: minikube
+  visiblename: minikube
+  version: 1.38.1
+  origversion: 1.38.1-2
+  status: outdated
+  summary: A tool that makes it easy to run Kubernetes locally
+  licenses:
+    - Apache-2.0
 - repo: wakemeops
   subrepo: devops
   binname: minikube
   visiblename: minikube
-  version: 1.33.0
-  origversion: 1.33.0-1~ops2deb
+  version: 1.38.0
+  origversion: 1.38.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: pkgsrc_current
+  srcname: net/minikube
+  binname: minikube
+  visiblename: net/minikube
+  version: 1.38.0
+  origversion: 1.38.0nb12
+  status: outdated
+  summary: Local kubernetes cluster
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.37.0
+  origversion: 1.37.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: scoop
+  subrepo: main
+  binname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: minikube
+  binname: minikube
+  visiblename: minikube
+  version: 1.38.1
+  origversion: 1.38.1_2
+  status: outdated
+  summary: Tool to make it easy to run Kubernetes locally
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: 1.39.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: slackbuilds
+  srcname: development/minikube
+  visiblename: development/minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  maintainers:
+    - willysr@slackbuilds.org
+  categories:
+    - development
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.38.1
+  origversion: 1.38.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
 - repo: alpine_edge
   subrepo: testing
   srcname: minikube
+  binname: docker-machine-driver-kvm2
+  visiblename: docker-machine-driver-kvm2
+  version: 1.34.0
+  origversion: 1.34.0-r17
+  status: outdated
+  summary: minikube-maintained KVM driver for docker-machine
+  maintainers:
+    - magiclouds@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: minikube
   binname: minikube
   visiblename: minikube
   version: 1.34.0
-  origversion: 1.34.0-r16
+  origversion: 1.34.0-r17
   status: outdated
   summary: Tool that makes it easy to run Kubernetes locally
   maintainers:
@@ -26,7 +121,7 @@
   binname: minikube-bash-completion
   visiblename: minikube-bash-completion
   version: 1.34.0
-  origversion: 1.34.0-r16
+  origversion: 1.34.0-r17
   status: outdated
   summary: Bash completions for minikube
   maintainers:
@@ -39,7 +134,7 @@
   binname: minikube-fish-completion
   visiblename: minikube-fish-completion
   version: 1.34.0
-  origversion: 1.34.0-r16
+  origversion: 1.34.0-r17
   status: outdated
   summary: Fish completions for minikube
   maintainers:
@@ -52,22 +147,9 @@
   binname: minikube-zsh-completion
   visiblename: minikube-zsh-completion
   version: 1.34.0
-  origversion: 1.34.0-r16
+  origversion: 1.34.0-r17
   status: outdated
   summary: Zsh completions for minikube
-  maintainers:
-    - magiclouds@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: testing
-  srcname: minikube
-  binname: docker-machine-driver-kvm2
-  visiblename: docker-machine-driver-kvm2
-  version: 1.34.0
-  origversion: 1.34.0-r16
-  status: outdated
-  summary: minikube-maintained KVM driver for docker-machine
   maintainers:
     - magiclouds@gmail.com
   licenses:
@@ -156,6 +238,20 @@
   summary: Run Kubernetes locally
   maintainers:
     - danilo@freebsd.org
+  categories:
+    - sysutils
+- repo: macports
+  srcname: sysutils/minikube
+  binname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  summary: Run Kubernetes locally
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - Apache-2
   categories:
     - sysutils
 - repo: gentoo
@@ -259,20 +355,6 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
-- repo: macports
-  srcname: sysutils/minikube
-  binname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  summary: Run Kubernetes locally
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - Apache-2
-  categories:
-    - sysutils
 - repo: manjaro_stable
   subrepo: extra
   srcname: minikube
@@ -285,17 +367,6 @@
   licenses:
     - Apache-2.0
 - repo: manjaro_testing
-  subrepo: extra
-  srcname: minikube
-  binname: minikube
-  visiblename: minikube
-  version: 1.38.1
-  origversion: 1.38.1-2
-  status: outdated
-  summary: A tool that makes it easy to run Kubernetes locally
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
   subrepo: extra
   srcname: minikube
   binname: minikube
@@ -364,15 +435,6 @@
     - dr.elhombrechile@gmail.com
   licenses:
     - Apache-2.0
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.32.0
-  origversion: 1.32.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: nix_stable_26_05
   srcname: minikube
   visiblename: minikube
@@ -413,18 +475,6 @@
   categories:
     - System/Management
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: minikube
-  visiblename: minikube
-  version: 1.31.0
-  origversion: 1.31.0-bp156.1.15
-  status: legacy
-  summary: Tool to run Kubernetes locally
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-- repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: minikube
   visiblename: minikube
@@ -443,6 +493,18 @@
   version: 1.36.0
   origversion: 1.36.0-bp156.2.6.1
   status: outdated
+  summary: Tool to run Kubernetes locally
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: minikube
+  visiblename: minikube
+  version: 1.31.0
+  origversion: 1.31.0-bp156.1.15
+  status: legacy
   summary: Tool to run Kubernetes locally
   licenses:
     - Apache-2.0
@@ -502,37 +564,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
-- repo: pkgsrc_current
-  srcname: net/minikube
-  binname: minikube
-  visiblename: net/minikube
-  version: 1.38.0
-  origversion: 1.38.0nb12
-  status: outdated
-  summary: Local kubernetes cluster
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
-- repo: scoop
-  subrepo: main
-  binname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: slackbuilds
-  srcname: development/minikube
-  visiblename: development/minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - development
 - repo: solus
   srcname: minikube
   binname: minikube
@@ -584,55 +615,6 @@
   summary: minikube implements a local Kubernetes cluster.
   maintainers:
     - termux@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: minikube
-  binname: minikube
-  visiblename: minikube
-  version: 1.38.1
-  origversion: 1.38.1_2
-  status: outdated
-  summary: Tool to make it easy to run Kubernetes locally
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: 1.39.0-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.38.1
-  origversion: 1.38.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.38.0
-  origversion: 1.38.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.37.0
-  origversion: 1.37.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: devops
   binname: minikube
@@ -666,6 +648,24 @@
   visiblename: minikube
   version: 1.33.1
   origversion: 1.33.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.33.0
+  origversion: 1.33.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.32.0
+  origversion: 1.32.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
