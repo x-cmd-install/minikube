@@ -14,7 +14,7 @@ x install minikube
 
 ## Code insight
 
-Total: **297,199** lines of code across **1276** files in the top 5 languages.
+Total: **297,256** lines of code across **1276** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-03
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,220 · **Forks**: 5,377 · **Open issues**: 10,691 · **Contributors**: 1,546
+- **Stars**: 32,223 · **Forks**: 5,377 · **Open issues**: 10,691 · **Contributors**: 1,549
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9891 · **Open PRs**: 146 · **Closed issues**: 10228 · **Open issues**: 463 · **Commits**: 28592
+- **Releases**: 155 · **Merged PRs**: 9894 · **Open PRs**: 144 · **Closed issues**: 10228 · **Open issues**: 463 · **Commits**: 28598
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 72 | 21 | 11 | 11 | 201 |
-| last60d | 2026-09-04 | 0 | 154 | 54 | 38 | 34 | 343 |
-| 90d | 2026-08-05 | 1 | 230 | 78 | 52 | 51 | 614 |
-| last180d | 2026-05-07 | 1 | 408 | 111 | 102 | 100 | 1106 |
-| 360d | 2025-11-08 | 3 | 921 | 141 | 288 | 148 | 1814 |
-| last720d | 2024-11-13 | 6 | 1655 | 146 | 788 | 192 | 3210 |
+| 30d | 2026-10-05 | 0 | 75 | 19 | 12 | 11 | 205 |
+| last60d | 2026-09-05 | 0 | 152 | 49 | 35 | 34 | 347 |
+| 90d | 2026-08-06 | 1 | 233 | 74 | 53 | 51 | 618 |
+| last180d | 2026-05-08 | 1 | 411 | 108 | 103 | 100 | 1110 |
+| 360d | 2025-11-09 | 3 | 922 | 139 | 287 | 148 | 1818 |
+| last720d | 2024-11-14 | 6 | 1657 | 144 | 787 | 192 | 3216 |
 
 ## Release assets
 
@@ -142,4 +142,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:34:25Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:11:14Z._
