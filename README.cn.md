@@ -48,22 +48,22 @@ x install minikube
 
 ## 流行度
 
-- **Star**: 32,225 · **Fork**: 5,382 · **开放 issue**: 10,694 · **贡献者**: 1,551
+- **Star**: 32,227 · **Fork**: 5,383 · **开放 issue**: 10,693 · **贡献者**: 1,551
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 9895 · **开放 PR**: 149 · **已关闭 issue**: 10231 · **开放 issue**: 463 · **提交数**: 28601
+- **发布数**: 155 · **已合并 PR**: 9895 · **开放 PR**: 148 · **已关闭 issue**: 10230 · **开放 issue**: 463 · **提交数**: 28601
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 74 | 22 | 15 | 10 | 208 |
-| last60d | 2026-09-07 | 0 | 143 | 49 | 37 | 30 | 350 |
-| 90d | 2026-08-08 | 1 | 230 | 78 | 55 | 51 | 621 |
-| last180d | 2026-05-10 | 1 | 403 | 112 | 105 | 99 | 1113 |
-| 360d | 2025-11-11 | 3 | 917 | 144 | 288 | 148 | 1821 |
-| last720d | 2024-11-16 | 6 | 1655 | 149 | 786 | 192 | 3209 |
+| 30d | 2026-10-08 | 0 | 74 | 21 | 15 | 9 | 208 |
+| last60d | 2026-09-08 | 0 | 140 | 48 | 37 | 30 | 350 |
+| 90d | 2026-08-09 | 1 | 230 | 78 | 55 | 51 | 621 |
+| last180d | 2026-05-11 | 1 | 396 | 110 | 103 | 98 | 1113 |
+| 360d | 2025-11-12 | 3 | 917 | 143 | 288 | 148 | 1821 |
+| last720d | 2024-11-17 | 6 | 1655 | 148 | 786 | 192 | 3209 |
 
 ## Release 资产
 
@@ -120,6 +120,19 @@ x install minikube
 | [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
 | [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/minikube) 上共有 **72** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**31** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `1.38.1` | ⚠️ outdated |
+| Homebrew | `1.39.0` | ✅ latest |
+| Nix unstable | `1.38.1` | ⚠️ outdated |
+| Void | `1.38.1` | ⚠️ outdated |
+| Alpine edge | `1.34.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.39.0` | ✅ latest |
+
 ## 改进这些数据
 
 minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `minikube` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -129,4 +142,4 @@ minikube 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T06:26:09Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T05:49:12Z._
