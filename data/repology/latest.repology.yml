@@ -1,3 +1,12 @@
+- repo: scoop
+  subrepo: main
+  binname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: minikube
@@ -142,13 +151,32 @@
   binname: minikube
   visiblename: sysutils/minikube
   version: 1.37.0
-  origversion: 1.37.0_17
+  origversion: 1.37.0_18
   status: outdated
   summary: Run Kubernetes locally
   maintainers:
     - danilo@freebsd.org
   categories:
     - sysutils
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: minikube
+  binnames:
+    - minikube
+    - minikube-debuginfo
+    - minikube-debugsource
+    - minikube-bash-completion
+    - minikube-fish-completion
+    - minikube-zsh-completion
+  visiblename: minikube
+  version: 1.39.0
+  origversion: 1.39.0-1.1
+  status: newest
+  summary: Tool to run Kubernetes locally
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
 - repo: gentoo
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -211,6 +239,18 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
+- repo: pkgsrc_current
+  srcname: net/minikube
+  binname: minikube
+  visiblename: net/minikube
+  version: 1.38.0
+  origversion: 1.38.0nb13
+  status: outdated
+  summary: Local kubernetes cluster
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
 - repo: liguros_stable
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -224,18 +264,6 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: minikube
-  visiblename: minikube
-  version: 1.34.0
-  origversion: 1.34.0-bp156.2.3.1
-  status: legacy
-  summary: Tool to run Kubernetes locally
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
 - repo: liguros_develop
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -262,6 +290,17 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
+- repo: parabola
+  subrepo: extra
+  srcname: minikube
+  binname: minikube
+  visiblename: minikube
+  version: 1.38.1
+  origversion: 1.38.1-2
+  status: outdated
+  summary: A tool that makes it easy to run Kubernetes locally
+  licenses:
+    - Apache-2.0
 - repo: macports
   srcname: sysutils/minikube
   binname: minikube
@@ -407,18 +446,6 @@
   categories:
     - System/Management
 - repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: minikube
-  visiblename: minikube
-  version: 1.36.0
-  origversion: 1.36.0-bp156.2.6.1
-  status: outdated
-  summary: Tool to run Kubernetes locally
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: minikube
   visiblename: minikube
@@ -430,36 +457,30 @@
     - Apache-2.0
   categories:
     - System/Management
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
   srcname: minikube
-  binnames:
-    - minikube
-    - minikube-debuginfo
-    - minikube-debugsource
-    - minikube-bash-completion
-    - minikube-fish-completion
-    - minikube-zsh-completion
   visiblename: minikube
-  version: 1.39.0
-  origversion: 1.39.0-1.1
-  status: newest
+  version: 1.34.0
+  origversion: 1.34.0-bp156.2.3.1
+  status: legacy
   summary: Tool to run Kubernetes locally
   licenses:
     - Apache-2.0
   categories:
     - System/Management
-- repo: parabola
-  subrepo: extra
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
   srcname: minikube
-  binname: minikube
   visiblename: minikube
-  version: 1.38.1
-  origversion: 1.38.1-2
+  version: 1.36.0
+  origversion: 1.36.0-bp156.2.6.1
   status: outdated
-  summary: A tool that makes it easy to run Kubernetes locally
+  summary: Tool to run Kubernetes locally
   licenses:
     - Apache-2.0
+  categories:
+    - System/Management
 - repo: pkgsrc_2026_2
   srcname: net/minikube
   binname: minikube
@@ -484,27 +505,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
-- repo: pkgsrc_current
-  srcname: net/minikube
-  binname: minikube
-  visiblename: net/minikube
-  version: 1.38.0
-  origversion: 1.38.0nb12
-  status: outdated
-  summary: Local kubernetes cluster
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
-- repo: scoop
-  subrepo: main
-  binname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: slackbuilds
   srcname: development/minikube
   visiblename: development/minikube
