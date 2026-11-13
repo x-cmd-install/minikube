@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,240 · **Forks**: 5,385 · **Open issues**: 10,716 · **Contributors**: 1,551
+- **Stars**: 32,242 · **Forks**: 5,385 · **Open issues**: 10,717 · **Contributors**: 1,552
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9916 · **Open PRs**: 148 · **Closed issues**: 10232 · **Open issues**: 484 · **Commits**: 28652
+- **Releases**: 155 · **Merged PRs**: 9916 · **Open PRs**: 148 · **Closed issues**: 10232 · **Open issues**: 485 · **Commits**: 28652
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 75 | 22 | 13 | 30 | 194 |
-| last60d | 2026-09-13 | 0 | 150 | 46 | 36 | 51 | 373 |
-| 90d | 2026-08-14 | 1 | 245 | 74 | 55 | 70 | 623 |
-| last180d | 2026-05-16 | 1 | 412 | 107 | 104 | 118 | 1161 |
-| 360d | 2025-11-17 | 3 | 933 | 142 | 282 | 169 | 1835 |
-| last720d | 2024-11-22 | 6 | 1673 | 147 | 783 | 213 | 3259 |
+| 30d | 2026-10-14 | 0 | 73 | 22 | 12 | 31 | 194 |
+| last60d | 2026-09-14 | 0 | 145 | 46 | 36 | 52 | 373 |
+| 90d | 2026-08-15 | 1 | 237 | 73 | 55 | 71 | 623 |
+| last180d | 2026-05-17 | 1 | 411 | 107 | 103 | 119 | 1161 |
+| 360d | 2025-11-18 | 3 | 931 | 142 | 281 | 170 | 1835 |
+| last720d | 2024-11-23 | 6 | 1673 | 147 | 783 | 214 | 3258 |
 
 ## Release assets
 
@@ -142,4 +142,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:03:37Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T06:28:20Z._
