@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,261 · **Forks**: 5,400 · **Open issues**: 10,736 · **Contributors**: 1,558
+- **Stars**: 32,261 · **Forks**: 5,400 · **Open issues**: 10,738 · **Contributors**: 1,558
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9943 · **Open PRs**: 164 · **Closed issues**: 10244 · **Open issues**: 492 · **Commits**: 28721
+- **Releases**: 155 · **Merged PRs**: 9945 · **Open PRs**: 162 · **Closed issues**: 10244 · **Open issues**: 494 · **Commits**: 28725
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 70 | 37 | 10 | 44 | 154 |
-| last60d | 2026-09-23 | 0 | 143 | 49 | 22 | 54 | 336 |
-| 90d | 2026-08-24 | 1 | 239 | 84 | 55 | 81 | 569 |
-| last180d | 2026-05-26 | 1 | 411 | 122 | 100 | 120 | 1099 |
-| 360d | 2025-11-27 | 3 | 923 | 159 | 279 | 175 | 1822 |
-| last720d | 2024-12-02 | 6 | 1681 | 163 | 784 | 220 | 3309 |
+| 30d | 2026-10-24 | 0 | 69 | 35 | 10 | 46 | 158 |
+| last60d | 2026-09-24 | 0 | 144 | 46 | 22 | 52 | 340 |
+| 90d | 2026-08-25 | 1 | 240 | 82 | 55 | 82 | 573 |
+| last180d | 2026-05-27 | 1 | 411 | 120 | 100 | 122 | 1103 |
+| 360d | 2025-11-28 | 3 | 925 | 157 | 279 | 177 | 1826 |
+| last720d | 2024-12-03 | 6 | 1683 | 161 | 782 | 222 | 3308 |
 
 ## Release assets
 
@@ -127,7 +127,7 @@ Reported by **72** distros on [repology.org](https://repology.org/project/miniku
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.38.1` | ⚠️ outdated |
-| Homebrew | `1.39.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `1.38.1` | ⚠️ outdated |
 | Void | `1.38.1` | ⚠️ outdated |
 | Alpine edge | `1.34.0` | ⚠️ outdated |
@@ -142,4 +142,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:35:13Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T07:28:10Z._
