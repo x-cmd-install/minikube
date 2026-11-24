@@ -1,39 +1,3 @@
-- repo: wakemeops
-  subrepo: devops
-  binname: minikube
-  visiblename: minikube
-  version: 1.23.2
-  origversion: 1.23.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  categories:
-    - python
-- repo: homebrew
-  srcname: minikube
-  visiblename: minikube
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Run a Kubernetes cluster locally
-- repo: kiss_community
-  subrepo: community
-  srcname: minikube
-  visiblename: minikube
-  version: 1.34.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - prathamin@proton.me
-- repo: scoop
-  subrepo: main
-  binname: minikube
-  visiblename: minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: minikube
@@ -86,20 +50,6 @@
     - magiclouds@gmail.com
   licenses:
     - Apache-2.0
-- repo: solus
-  srcname: minikube
-  binname: minikube-dbginfo
-  visiblename: minikube-dbginfo
-  version: 1.37.0
-  origversion: null
-  status: outdated
-  summary: Debug symbols for minikube
-  maintainers:
-    - mcakaric@gmail.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: alpine_edge
   subrepo: testing
   srcname: minikube
@@ -232,6 +182,22 @@
   origversion: null
   status: newest
   summary: Run a Kubernetes cluster locally
+- repo: homebrew
+  srcname: minikube
+  visiblename: minikube
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Run a Kubernetes cluster locally
+- repo: kiss_community
+  subrepo: community
+  srcname: minikube
+  visiblename: minikube
+  version: 1.34.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - prathamin@proton.me
 - repo: liguros_stable
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -258,16 +224,6 @@
     - Apache-2.0 BSD BSD-2 CC-BY-4.0 CC-BY-SA-4.0 CC0-1.0 GPL-2 ISC LGPL-3 MIT MPL-2.0 WTFPL-2 ZLIB || ( LGPL-3+ GPL-2 ) || ( Apache-2.0 LGPL-3+ ) || ( Apache-2.0 CC-BY-4.0 )
   categories:
     - sys-cluster
-- repo: slackbuilds
-  srcname: development/minikube
-  visiblename: development/minikube
-  version: 1.39.0
-  origversion: null
-  status: newest
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - development
 - repo: liguros_develop
   srcname: sys-cluster/minikube
   visiblename: sys-cluster/minikube
@@ -415,9 +371,9 @@
 - repo: nix_unstable
   srcname: minikube
   visiblename: minikube
-  version: 1.38.1
+  version: 1.39.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Tool that makes it easy to run Kubernetes locally
   maintainers:
     - vincent@sbr.pm
@@ -540,6 +496,25 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
+- repo: scoop
+  subrepo: main
+  binname: minikube
+  visiblename: minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: slackbuilds
+  srcname: development/minikube
+  visiblename: development/minikube
+  version: 1.39.0
+  origversion: null
+  status: newest
+  maintainers:
+    - willysr@slackbuilds.org
+  categories:
+    - development
 - repo: solus
   srcname: minikube
   binname: minikube
@@ -554,6 +529,20 @@
     - Apache-2.0
   categories:
     - system.utils
+- repo: solus
+  srcname: minikube
+  binname: minikube-dbginfo
+  visiblename: minikube-dbginfo
+  version: 1.37.0
+  origversion: null
+  status: outdated
+  summary: Debug symbols for minikube
+  maintainers:
+    - mcakaric@gmail.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
 - repo: t2
   srcname: minikube
   visiblename: minikube
@@ -806,3 +795,14 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: minikube
+  visiblename: minikube
+  version: 1.23.2
+  origversion: 1.23.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  categories:
+    - python
