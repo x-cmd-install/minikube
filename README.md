@@ -14,13 +14,13 @@ x install minikube
 
 ## Code insight
 
-Total: **298,154** lines of code across **1286** files in the top 5 languages.
+Total: **298,368** lines of code across **1293** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 150,629 | 2,231 | 345 | 167 |
-| Go | 108,267 | 20,923 | 17,461 | 818 |
-| Json | 18,147 | 0 | 0 | 34 |
+| Yaml | 150,655 | 2,231 | 345 | 170 |
+| Go | 108,465 | 20,962 | 17,491 | 819 |
+| Json | 18,137 | 0 | 0 | 37 |
 | Html | 12,314 | 19 | 2,898 | 162 |
 | Sh | 3,390 | 2,137 | 1,129 | 105 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-24
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,268 · **Forks**: 5,401 · **Open issues**: 10,741 · **Contributors**: 1,561
+- **Stars**: 32,274 · **Forks**: 5,400 · **Open issues**: 10,741 · **Contributors**: 1,561
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9948 · **Open PRs**: 160 · **Closed issues**: 10245 · **Open issues**: 496 · **Commits**: 28737
+- **Releases**: 155 · **Merged PRs**: 9949 · **Open PRs**: 160 · **Closed issues**: 10247 · **Open issues**: 494 · **Commits**: 28748
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 70 | 32 | 11 | 48 | 170 |
-| last60d | 2026-09-25 | 0 | 147 | 44 | 23 | 53 | 352 |
-| 90d | 2026-08-26 | 1 | 239 | 80 | 56 | 84 | 585 |
-| last180d | 2026-05-28 | 1 | 411 | 118 | 98 | 124 | 1115 |
-| 360d | 2025-11-29 | 3 | 926 | 155 | 280 | 179 | 1838 |
-| last720d | 2024-12-04 | 6 | 1684 | 159 | 782 | 224 | 3320 |
+| 30d | 2026-10-26 | 0 | 69 | 30 | 10 | 45 | 181 |
+| last60d | 2026-09-26 | 0 | 144 | 43 | 25 | 51 | 363 |
+| 90d | 2026-08-27 | 1 | 239 | 79 | 58 | 81 | 596 |
+| last180d | 2026-05-29 | 1 | 410 | 118 | 99 | 121 | 1126 |
+| 360d | 2025-11-30 | 3 | 924 | 155 | 281 | 177 | 1849 |
+| last720d | 2024-12-05 | 6 | 1682 | 159 | 783 | 222 | 3324 |
 
 ## Release assets
 
@@ -120,19 +120,6 @@ Lowest-scoring checks:
 | [minikube_latest_s390x.deb](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_latest_s390x.deb) | 39.7 MiB | `runtime/deb/s390x` |
 | [minikube_v1.39.0_sbom.spdx](https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube_v1.39.0_sbom.spdx) | 3.1 MiB | `other` |
 
-## Distribution status
-
-Reported by **72** distros on [repology.org](https://repology.org/project/minikube). **11** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.38.1` | ⚠️ outdated |
-| Homebrew | `1.39.0` | ✅ latest |
-| Nix unstable | `1.39.0` | ✅ latest |
-| Void | `1.38.1` | ⚠️ outdated |
-| Alpine edge | `1.34.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.39.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `minikube` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -142,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:44:03Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:19:46Z._
