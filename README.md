@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.39.0` (2026-09-02)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-25
 - **Assets in release**: 50
 
 ## Popularity
 
-- **Stars**: 32,274 · **Forks**: 5,400 · **Open issues**: 10,741 · **Contributors**: 1,561
+- **Stars**: 32,275 · **Forks**: 5,404 · **Open issues**: 10,741 · **Contributors**: 1,561
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 9949 · **Open PRs**: 160 · **Closed issues**: 10247 · **Open issues**: 494 · **Commits**: 28748
+- **Releases**: 155 · **Merged PRs**: 9951 · **Open PRs**: 161 · **Closed issues**: 10247 · **Open issues**: 494 · **Commits**: 28754
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 69 | 30 | 10 | 45 | 181 |
-| last60d | 2026-09-26 | 0 | 144 | 43 | 25 | 51 | 363 |
-| 90d | 2026-08-27 | 1 | 239 | 79 | 58 | 81 | 596 |
-| last180d | 2026-05-29 | 1 | 410 | 118 | 99 | 121 | 1126 |
-| 360d | 2025-11-30 | 3 | 924 | 155 | 281 | 177 | 1849 |
-| last720d | 2024-12-05 | 6 | 1682 | 159 | 783 | 222 | 3324 |
+| 30d | 2026-10-27 | 0 | 71 | 31 | 10 | 45 | 187 |
+| last60d | 2026-09-27 | 0 | 146 | 44 | 25 | 50 | 369 |
+| 90d | 2026-08-28 | 1 | 241 | 80 | 58 | 81 | 602 |
+| last180d | 2026-05-30 | 1 | 405 | 118 | 98 | 121 | 1132 |
+| 360d | 2025-12-01 | 3 | 923 | 156 | 275 | 177 | 1855 |
+| last720d | 2024-12-06 | 6 | 1683 | 160 | 781 | 222 | 3317 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for minikube lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:19:46Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:25:51Z._
